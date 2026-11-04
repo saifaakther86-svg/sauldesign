@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family:"poppins",sans-serif;
+}
+ 
+
+.container{
+   width: 1320px;
+   padding: 40px 0;
+   margin: 0 auto;
+}
+
+
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#header{
+    padding: 10px 0;
+     background-color:#222831;
+    border-bottom:1px solid#eeeeee41 ;
+}
+
+.menuList ul{
+    display: flex;
+    gap: 18px;
+}
+.menuFlex{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuList ul li a{
+    font-family:"poppins",sans-serif;
+    font-weight:100;
+    font-size: 25px;
+     background-color:#222831;
+    color: #EEEEEE;
+}
+
+/* Banner part Css start Here */
+#BannerPart{
+    padding-top:50px;
+    padding-bottom: 20px;
+     background-color:#222831;
+}
+.bannerContent{
+    display: flex;
+    gap: 200px;
+    position:relative ;
+}
+.bannerContentLeft{
+    margin-top: 39px;
+}
+.bannerContent .icon{
+    position: absolute;
+    top: 105px;
+    left: -90px;
+}
+.bannerContentLeft h1{
+font-weight: 400;
+font-size: 90px;
+line-height: 100px;
+color:#EEEEEE ;
+width: 586px;
+margin-bottom: 48px;
+}
+
+.bannerContentLeft h1 span{
+    color: #00ADB5;
+}
+.bannerbtn{
+    display: flex;
+    gap: 24px;
+}
+.bannerbtn button{
+    background-color: #00ADB5;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 24px;
+}      
+.bannerbtn button a{
+     font-weight:700;
+    font-size: 18px;
+   color: #EEEEEE; 
+   text-shadow: 0px 4px 4px #000000;
+}  
+.bannerbtn button:hover{
+background-color:#393E46BF;
+transition: all linear 0.3s;
+}
+/* Banner part Css start Here */
+
+/* About me part Css Start Here */
+#aboutpart{
+    padding: 230px;
+    padding-bottom: 69px;
+    background-color:#222831;
+}
+.musicicon{
+    position: absolute;
+       top: -100px;
+}
+.lightbulb{
+    position:absolute;
+    top: -13px;
+    left: 26%;
+
+}
+
+.aboutContent{
+    display: flex;
+    gap: 200px;
+    position: relative;
+}
+.aboutmeLeft h2{
+    font-weight: 300;
+    font-size:64px;
+    color:#EEEEEE;
+}
+.aboutmeLeft h2 samp b{
+    color: #EEEEEE;
+}
+.aboutmeLeft p{
+    font-weight: 400;
+    font-size: 17px;
+    color: #EEEEEE;
+    width: 389px;
+
+}
+.aboutmeRight{
+    
+}
+
+/* About me part Css Ends Here */
